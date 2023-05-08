@@ -1,0 +1,171 @@
+*,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* ini adalah bagian navbar */
+nav .top {
+  height: 40px;
+  width: 100%;
+  background-image: url(../img/header&footer.jpg);
+}
+
+nav .main {
+  background-color: rgb(255, 255, 255);
+  height: 100px;
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color: rgb(135, 135, 135);
+}
+
+nav .container {
+  display: flex;
+}
+
+nav .main .container img {
+  height: 50px;
+  margin-right: 5px;
+  margin-top: 20px;
+}
+nav .main .container h5 {
+  margin-top: 30px;
+  color: rgb(255, 0, 0);
+  font-weight: bolder;
+}
+
+nav p a {
+  text-decoration: none;
+  color: rgb(222, 4, 4);
+}
+
+nav p a:hover {
+  color: rgb(221, 115, 115);
+}
+.navbar {
+  margin-left: 155px;
+}
+.nav-link {
+  color: black;
+}
+.nav-link:hover {
+  color: rgb(173, 3, 3);
+}
+.tanggal {
+  color: white;
+  padding-top: 5px;
+  width: 200px;
+}
+/* ini adalah bagian navbar */
+
+/* ini adalah carousel */
+.carousel-item {
+  height: 750px;
+  background-size: cover;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: rgba(0, 0, 0, 0.685);
+  width: 50px;
+  height: 50px;
+  margin-top: 350px;
+}
+.carousel-caption {
+  color: rgb(255, 255, 255);
+  margin-bottom: 230px;
+  text-shadow: 10px 6px 13px #000000be;
+}
+
+.carousel-caption h2 {
+  font-size: 50px;
+}
+.carousel-caption p {
+  font-size: 20px;
+  font-weight: bold;
+}
+.btn {
+  background-color: rgb(192, 8, 8);
+  border-radius: 30px;
+  border-style: none;
+  height: 50px;
+  width: 200px;
+  font-size: 20px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  text-shadow: none;
+}
+.btn:hover {
+  background-color: rgb(106, 7, 7);
+}
+
+/* Akhir carousel */
+
+/* Pembatas merah */
+.pembatas {
+  background-color: rgb(219, 5, 5);
+  height: 20px;
+  width: 100%;
+}
+
+/* Bagian isi ke-1,2 dan 3 */
+
+.isi,
+.isi3 {
+  background-color: rgb(225, 225, 225);
+  height: 800px;
+}
+.isi h2,
+.isi2 h2,
+.isi3 h2 {
+  transform: translateX(185px);
+  width: 100px;
+  margin-bottom: 50px;
+  padding-top: 50px;
+}
+.card {
+  width: 17rem;
+}
+.card-img-top {
+  background-color: grey;
+  height: 300px;
+}
+
+.isi2 {
+  background-color: rgb(255, 255, 255);
+  height: 800px;
+}
+/* Akhir isi */
+
+.footer {
+  background-image: url(../img/header&footer.jpg);
+  height: 300px;
+}
+
+.footer-container {
+  width: 400px;
+  margin-left: 185px;
+  transform: translateY(70px);
+}
+.alamat,
+.email {
+  color: white;
+  line-height: 20px;
+}
+
+.alamat p:nth-child(1),
+.email p:nth-child(1) {
+  margin: 0;
+}
+
+.footer2 {
+  background-color: rgb(219, 5, 5);
+  height: 65px;
+  width: 100%;
+}
+
+.footer2-container p {
+  color: white;
+  width: 230px;
+  margin: 0 auto;
+  transform: translateY(20px);
+}

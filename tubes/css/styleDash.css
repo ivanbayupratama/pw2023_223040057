@@ -1,0 +1,59 @@
+.btn {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+.list-container {
+  height: 92vh;
+  width: 20%;
+  background-color: rgb(105, 7, 7);
+  z-index: 1;
+  padding-top: 80px;
+  padding-left: 25px;
+}
+
+.list2-container {
+  margin-left: 80px;
+  margin-top: 80px;
+}
+h2 {
+  margin-bottom: 30px;
+}
+li {
+  list-style: none;
+}
+.list {
+  background-color: rgb(255, 255, 255);
+  width: 80%;
+  height: 10%;
+  margin-bottom: 40px;
+  border-radius: 5px;
+}
+.list li a {
+  line-height: 55px;
+  margin-left: 50px;
+}
+
+a {
+  color: black;
+}
+.main-container {
+  display: flex;
+  background-color: rgb(236, 233, 231);
+}
+.kotak-container {
+  display: flex;
+}
+.kotak {
+  background-color: brown;
+  height: 300px;
+  width: 300px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.kotak h4 {
+  color: white;
+  padding-left: 40px;
+  line-height: 70px;
+}
