@@ -169,3 +169,41 @@ nav p a:hover {
   margin: 0 auto;
   transform: translateY(20px);
 }
+
+@media screen and (max-width: 1184px) {
+  .col-lg-3 {
+    margin-right: 80px;
+  }
+
+  .isi,
+  .isi2,
+  .isi3 {
+    height: 1300px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .col-lg-3 {
+    margin-right: 0px;
+  }
+
+  .isi,
+  .isi2,
+  .isi3 {
+    height: 1300px;
+  }
+}
+
+@media screen and(max-width :767px ) {
+  .card {
+    margin-right: 0px;
+    padding: 0px;
+    width: 200px;
+  }
+
+  .isi,
+  .isi2,
+  .isi3 {
+    height: 1300px;
+  }
+}

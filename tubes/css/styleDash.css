@@ -4,7 +4,7 @@
 }
 
 .list-container {
-  height: 92vh;
+  height: 1000px;
   width: 20%;
   background-color: rgb(105, 7, 7);
   z-index: 1;
@@ -25,7 +25,7 @@ li {
 .list {
   background-color: rgb(255, 255, 255);
   width: 80%;
-  height: 10%;
+  height: 4%px;
   margin-bottom: 40px;
   border-radius: 5px;
 }
@@ -40,14 +40,13 @@ a {
 .main-container {
   display: flex;
   background-color: rgb(236, 233, 231);
+  height: 10px;
 }
-.kotak-container {
-  display: flex;
-}
+
 .kotak {
   background-color: brown;
   height: 300px;
-  width: 300px;
+  width: 1050px;
   margin-right: 20px;
   border-radius: 5px;
 }
@@ -56,4 +55,8 @@ a {
   color: white;
   padding-left: 40px;
   line-height: 70px;
+}
+
+.tbody-1 {
+  background-color: rgb(234, 229, 218);
 }
